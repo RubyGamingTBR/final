@@ -10,6 +10,35 @@
     <link rel="stylesheet" href="../styles/finmobile.css">
 </head>
 <body>
+    <script>
+
+fetch('nav.html')
+
+ .then(response => response.text())
+
+ .then(data => {
+
+document.getElementById('nav-placeholder').innerHTML = data;
+
+// Wait until nav.html is loaded, THEN attach toggle behavior
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+
+const navbarLinks = document.getElementsByClassName('kiwi')[0];
+
+if (toggleButton && navbarLinks) {
+
+toggleButton.addEventListener('click', () => {
+
+navbarLinks.classList.toggle('active');
+
+ });
+
+ }
+
+ });
+
+</script>
          <nav class="hamish">
         <ul>
             <li><a href="../final/pages/page-1.html">GAFMAG</a></li>
@@ -19,6 +48,7 @@
         </ul>
     </nav>
     </nav>
+    <script src="../scripts/mobilemagnav.js"></script>
     <header>
         <section>
             <h1>A Puerto Rican-Cuban Witch in a Goddess-centric World</h1>

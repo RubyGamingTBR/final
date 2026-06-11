@@ -8,9 +8,39 @@
     <link href="../styles/page2.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/magnav.css">
     <link rel="stylesheet" href="../styles/finmobile.css">
+
 </head>
 <body>
     <header>
+        <script>
+
+fetch('nav.html')
+
+ .then(response => response.text())
+
+ .then(data => {
+
+document.getElementById('nav-placeholder').innerHTML = data;
+
+// Wait until nav.html is loaded, THEN attach toggle behavior
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+
+const navbarLinks = document.getElementsByClassName('kiwi')[0];
+
+if (toggleButton && navbarLinks) {
+
+toggleButton.addEventListener('click', () => {
+
+navbarLinks.classList.toggle('active');
+
+ });
+
+ }
+
+ });
+
+</script>
       <nav class="hamish">
         <ul>
             <li><a href="../final/pages/page-1.html">GAFMAG</a></li>
@@ -24,6 +54,7 @@
             <h2></h2>
             <h2>BY SARAH POTTER</h2>
         </section>
+        <script src="../scripts/mobilemagnav.js"></script>
     </header>
     <div class="container">
     <section class="pure-g">
