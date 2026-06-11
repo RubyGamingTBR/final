@@ -7,8 +7,17 @@
          .history-hero{
         height: 50vw;
      }
+        h5{
+     color: darkcyan;
+     margin-bottom: 45px;}
+        }
+        nav{
+            background-color: 00bd00;
+        }
+        p{
+            margin: 15px;
+        }
 
-    }
     
 
 
