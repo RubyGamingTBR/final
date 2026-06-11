@@ -11,6 +11,7 @@
 h3:first-of-type {color: green;
 }
 
+body{background-color: papayawhip;}
 
 img{
     width: auto;
@@ -34,5 +35,6 @@ figcaption{
     border-width: 2px; 
     box-sizing: border-box;
     justify-content: center;}
+    body{background-color: papayawhip;}
 
 }

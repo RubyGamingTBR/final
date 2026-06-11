@@ -34,7 +34,7 @@ img{
     box-sizing: border-box;
 }
 h5, p{
-    width: 500px;
+    width: 80%;
     flex-wrap: nowrap;
 }
 }
