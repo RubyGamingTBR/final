@@ -13,7 +13,8 @@ article:first-of-type{
 }
 article{
     padding: 30px;
-    margin: 5px;}
+    margin: 5px;
+box-sizing: border-box;}
 
 h5{
     color: darkcyan;

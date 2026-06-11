@@ -2,11 +2,10 @@ body{
     padding-left: 5%;
     background-color: papayawhip;
 }
-header{
+/* /* header{
     text-align: center;
     border-bottom-style: dotted;
-    border-width: 2px;
-}
+    border-width: 2px; }*/
 img{
     width: auto;
     height: 300px;
@@ -34,4 +33,10 @@ h2{
 footer{
     padding-left: 10px;
 }
+.sarahtitle {
+    
+    border-bottom-style: dotted;
+    border-width: 2px; }
+
+
 
